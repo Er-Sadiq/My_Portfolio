@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.slick-slide > div {
+  margin: 0 15px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:#FF4A57 !important;
+  font-size: 20px; 
+  padding: 15x 20px;
+  
+  
+}
+
+.bd{
+  @apply border-solid
+         border-[2px]
+        
+}
+
+.SecHeading {
+  @apply text-2xl text-[#FF4A57] font-bold font-QS tracking-wide leading-tight bg-gradient-to-r from-pink-500 to-yellow-400 text-transparent bg-clip-text; 
+}
+
+.MicroHeading{
+  @apply text-gray-100  font-QS font-semibold tracking-wide leading-tight text-base;
+}
+
+.PrimaryBg{
+  @apply  bg-[#0E1630];
+}
+
+
