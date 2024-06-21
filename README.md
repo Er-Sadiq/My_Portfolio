@@ -9,7 +9,7 @@ This portfolio is built using React, Tailwind CSS, and React Slick to showcase m
 
 
 ## 🔗 Links [Demo]
-https://portfolio-er-killedar.netlify.app/
+https://portfolio-er-killedar-dev.netlify.app/
 
 
 ## Features
